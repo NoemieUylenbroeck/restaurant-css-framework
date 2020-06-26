@@ -17,3 +17,27 @@
 .contact{
     overflow-x: hidden;
 }
+
+.headerbar{
+    padding-top : 15px;
+    padding-bottom : 15px;
+}
+
+.headerbarlien:hover{
+    border-left:1px black solid;
+    border-right:1px black solid;
+}
+.headerbaractive{
+    background-color: rgba(255, 160, 122, 0.315);
+    color : white;    
+}
+
+.welcomeevent{
+    border : 1px black solid;
+    border-radius: 5px;
+    margin:20px;
+}
+
+.menu{
+    border-left:1px black solid;
+}
