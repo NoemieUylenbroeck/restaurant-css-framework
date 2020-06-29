@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>    
     <section class="jumbotron container-fluid">
@@ -26,5 +28,117 @@
             </div>
         </div>
     </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="CarouselPhoto" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#CarouselPhoto" data-slide-to="0" class="active"></li>
+                        <li data-target="#CarouselPhoto" data-slide-to="1"></li>
+                        <li data-target="#CarouselPhoto" data-slide-to="2"></li>
+                        <li data-target="#CarouselPhoto" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="Assets/Images/photo bagel slides.jpg" alt="photo bagel" class="img-responsive" style="width: 89%;">
+                                    <div class="carousel-caption textecarousel">
+                                        Craquez pour nos bagels !
+                                    </div>                    
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="Assets/Images/photo café slides.jpg" alt="photo café" class="img-responsive" style="width: 100%">
+                                    <div class="carousel-caption textecarousel">
+                                        Une bonne tasse de café à toute heure de la journée.
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="Assets/Images/photo tiramisu slides.jpg" alt="photo tiramusi" class="img-responsive" style="width: 100%">
+                                    <div class="carousel-caption textecarousel">
+                                        Parce que rien n'est meilleur qu'un tiramisu.
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo comptoir slides.jpg" alt="photo comptoir" style="width: 100%">
+                                    <div class="carousel-caption textecarousel">
+                                        Nous vous acceuillons dans nos trois locations.
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo pancakes slides.jpg" alt="photo pancakes" style="width: 90%">
+                                    <div class="carousel-caption textecarousel">
+                                    Que ce soit pour le petit-déjeuner ou le goûter, faites-vous plaisir avec nos pancakes.
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo thé slides.jpg" alt="photo feuille de thé" style="width: 85%">
+                                    <div class="carousel-caption textecarousel">
+                                        Nous ne vous proposons des thés ceuillis avec le plus grand soin.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo oeufs slides.jpg" alt="photo oeufs" style="width: 100%">
+                                    <div class="carousel-caption textecarousel">
+                                        Venez-vous faire plaisir dès le matin avec nos formules petit-déjeuner.
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo assortiment thé slides tourné.jpg" alt="photo multiple thé" style="width: 95%">
+                                    <div class="carousel-caption textecarousel">
+                                        Venez découvrir notre grand assortiment de thé.
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo livre slides.jpg" alt="photo livre et thé" style="width: 100%">
+                                    <div class="carousel-caption textecarousel">
+                                        Venez vous détendre ou travailler dans un endroit calme.
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo sandwich slides.jpg" alt="photo sandwich" style="width: 100%">
+                                    <div class="carousel-caption textecarousel">
+                                        Un repas équilibré et rapide pour tenir toute la journée.
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo tasse caffé slides.jpg" alt="photo tasse café" style="width: 104%">
+                                    <div class="carousel-caption textecarousel">
+                                        Venez profiter d'une bonne tasse de café.
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <img src="Assets/Images/photo tartines slides.jpg" alt="photo tartines" style="width: 100%">
+                                    <div class="carousel-caption textecarousel">
+                                        Une tartine de pain frais pour garder l'esprit éveillé.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#CarouselPhoto" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#CarouselPhoto" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>  
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
