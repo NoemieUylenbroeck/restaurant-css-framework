@@ -10,24 +10,74 @@
 <body class="contact">
     <section class="jumbotron container-fluid">
         <div class="row">
-            <div class="col-md-8 text-center">
-                <h1>Contact</h1>
+            <div class="col-md-offset-7 col-md-5">
+                <ul class="nav nav-tabs nav-justified text-right">
+                    <li role="presentation"><a href="index.html">Bienvenue</a></li>
+                    <li role="presentation"><a href="menu.html">Menu</a></li>
+                    <li role="presentation"><a href="Pictures.html">Photos</a></li>
+                    <li role="presentation"><a href="Restaurants.html">Restaurants</a></li>
+                    <li role="presentation"  class="active"><a href="Contact.html">Contact</a></li>
+                </ul> 
             </div>
-            <div class="col-md-4 text-right">
-                <div class="row">            
-                    <div class="col-md-2 text-center"><a href="index.html">Welcome</a></div>
-                    <div class="col-md-2 text-center"><a href="Menu.html">Menu</div>
-                    <div class="col-md-2 text-center"><a href="Pictures.html">Pictures</a></div>
-                    <div class="col-md-3 text-center"><a href="Restaurants.html">Restaurants</a></div>
-                    <div class="col-md-2 text-center">Contact</div>
-                </div>   
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Contact</h1>
             </div>
         </div>
     </section>
     <section>
         <div class="container">
             <div class="row">
-               <div class="col-md text-center">Formulaire</div>
+                <div class="col-md-12">
+                    <h2 class="text-center">Veuillez remplir ce formulaire pour nous contacter :</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-xs-offset-1 col-xs-11 col-md-offset-2 col-md-10 borderleft">
+                   <div class="form-horizontal">
+                       <div class="form-group">
+                           <div for="Prénom" class="col-xs-12 col-md-12 col-lg-12">
+                                <input type="radio" name="radio" value="Monsieur" /> Monsieur
+                                <input type="radio" name="radio" value="Madame" /> Madame
+                                <input type="radio" name="radio" value="Autre" /> Autre
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Prénom" class="col-xs-4 col-md-3 col-lg-2">Prénom</label>
+                            <div class="col-xs-8 col-md-9 col-lg-10"> 
+                                <input type="text" name="Prénom" id="¨Prénom" placeholder="Prénom"/>
+                            </div>
+                            <label for="Nom de famille" class="col-xs-4 col-md-3 col-lg-2">Nom de famille</label>
+                            <div class="col-xs-8 col-md-9 col-lg-10"> 
+                                <input type="text" name="Nom de famille" id="¨Nom de famille" placeholder="Nom de famille"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="raison" class="col-xs-12">Type de message :</label>
+                                <select name="raison" id="raison" class="form-control"> 
+                                   <option value="Réservation">Réservation</option>
+                                   <option value="Avis">Avis</option>
+                                   <option value="Réclamation">Réclamation</option>
+                                   <option value="Autre">Autre</option>
+                                </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-xs-4 col-md-3 col-lg-2">Email</label>
+                            <div>
+                                <input type="email" name="email" id="email" placeholder="Email"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-xs-5 col-md-4 col-lg-3">Votre message :</label>
+                            <textarea class="form-control" rows="3" type="message" name="message" id="message" placeholder="Votre message"></textarea>
+                        </div>
+                            <div class="input-group ">    
+                            <span class="glyphicon glyphicon-send"></span>
+                            <input type="button" value="Envoyer">
+                        </div>
+                    </div>
+               </div>
             </div>
         </div>
     </section>

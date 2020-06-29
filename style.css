@@ -28,22 +28,13 @@ a:hover{
     text-decoration: none;
 }
 
-.headerbaractive{
-    background-color:#4C8B30;
-    opacity: 0.5;
-    color:white;
-    padding:0;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 .welcomeevent{
     border : 1px #4C8B30 solid;
     border-radius: 5px;
     margin-bottom :50px;
 }
 
-.menu{
+.borderleft{
     border-left:1px #4C8B30 solid;
 }
 
