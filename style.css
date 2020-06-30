@@ -1,4 +1,4 @@
-.welcome{
+/*.welcome{
     overflow: hidden;
 }
 
@@ -17,7 +17,7 @@
 .contact{
     overflow-x: hidden;
 }
-
+*/
 a{
     color : black;
     text-decoration: none;
@@ -53,4 +53,20 @@ h1{
    background-color: #4b8b308a;
    border-radius: 5px;
     font-size : 130%;
+}
+.bienvenue{
+    font-size : 20px;
+}
+.bienvenue img{
+    float:left;
+    width:100%;
+    margin : 10px;
+    border-radius: 5px;
+}
+
+.event img{
+    width:30%;
+    float:left;
+    margin : 10px;
+    border-radius: 5px;
 }
